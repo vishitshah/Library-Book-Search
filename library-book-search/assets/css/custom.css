@@ -1,0 +1,100 @@
+.row{
+    padding:15px;
+}
+#library-search-form{
+    display: table;
+    width:100%;
+}
+input[type="text"] {
+    width:100%;
+}
+select#publisher, select#bookrating{
+    width: 100%;
+}
+.search-result-data {
+    display: table;
+    width: 100%;
+}
+.pagination{
+    width: 100%;
+    border-top: none !important;
+}
+.ic-pagination ul{        
+    background: #fff;
+    padding: 8px;
+    border-radius: 50px;
+    box-shadow: 0px 10px 15px rgb(0 0 0 / 10%);
+    float: right;
+    display: inline-flex;
+}
+.ic-pagination ul li{
+    color: #20B2AA;
+    list-style: none;
+    line-height: 45px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s ease;
+    padding: 0 10px;
+}
+.ic-pagination ul li.numb{
+    list-style: none;
+    height: 45px;
+    width: 45px;
+    margin: 0 3px;
+    line-height: 45px;
+    border-radius: 50%;
+}
+.ic-pagination ul li.numb.first{
+    margin: 0px 3px 0 -5px;
+}
+.ic-pagination ul li.numb.last{
+    margin: 0px -5px 0 3px;
+}
+.ic-pagination ul li.dots{
+    font-size: 22px;
+    cursor: default;
+}
+.ic-pagination ul li.btn{
+    padding: 0 20px;
+    border-radius: 50px;
+}
+.ic-pagination li.active,
+.ic-pagination ul li.numb:hover,
+.ic-pagination ul li:first-child:hover,
+.ic-pagination ul li:last-child:hover{
+    color: #fff;
+    background: #20B2AA;
+}
+
+.star-wrap img {
+    display: none;
+    max-width: 100px !important;
+}
+.star-wrap.one img.star1 {
+    display: block;
+}
+.star-wrap.two img.star2 {
+    display: block;
+}
+.star-wrap.three img.star3 {
+    display: block;
+}
+.star-wrap.four img.star4 {
+    display: block;
+}
+.star-wrap.five img.star5 {
+    display: block;
+}
+.result-wrapper tr td:last-child {
+    width: 30%;
+}
+.rating-wrap {
+    width: 150px;
+}
+.single-rating strong {
+    float: left;
+    padding-right: 8px;
+}
